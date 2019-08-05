@@ -162,3 +162,16 @@ for i in range(1, 10 + 1):
     print(factorial(i))
 
 ```
+
+score가 다음과 같은 형태로 주어졌을 때
+scores = [80, 100, 70, 90, 40]
+1. total 함수 만들기
+2. average 함수 만들기
+3. 제대로 했는지 확인하기
+4. 코드를 GitHub에 올리기
+
+``` python
+scores = [80, 100, 70, 90, 40]
+
+def total(n):
+    

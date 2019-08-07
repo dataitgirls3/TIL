@@ -4,8 +4,8 @@ scores = [80, 100, 70, 90, 40]
 
 def total(scores):
     total_scores = 0
-    for score in scores:
-        total_scores += score
+    for i in range(len(scores)):
+        total_scores += scores[i]
     return total_scores
 print(total(scores))
 
@@ -13,7 +13,7 @@ print(total(scores))
 
 def average(scores):
     average_scores = 0
-    for score in scores:
+    for i in range(len(scores)):
         average_scores = total(scores)/len(scores)
     return average_scores
 print(average(scores))

@@ -7,32 +7,32 @@ class_scores = [
 ]
 
 my_total_score = 0
-for a in my_scores:
-	my_total_score += a
 
-print(my_total_score)
+for score in my_scores:
+	my_total_score += score
 
-#score가 다음과 같은 형태로 주어졌을 때
-#scores = [80, 100, 70, 90, 40]
-#1. total 함수 만들기
-#2. average 함수 만들기
-#3. 제대로 했는지 확인하기
-#4. 코드를 GitHub에 올리기
+print("내총점: ", my_total_score)
 
+# score가 다음과 같은 형태로 주어졌을 때
 scores = [80, 100, 70, 90, 40]
 
-def total(list):
+
+#1. total 함수 만들기
+def total(numbers):
     result = 0
-    for i in list:
+    for i in numbers:
         result += i
-    return result
-
-
-print(total(scores))
-
-
-def average(list):
-    return sum(list) / len(list)
-
-
-print(average(scores))
+        return result
+    
+    
+    
+# 2. average 함수 만들기
+def average(numbers):
+    return total(numbers) / len(numbers)
+    
+    
+# 3. 제대로 했는지 확인하기
+print("총점 : ", total(scores))
+print("평점: ", average(scores))
+    
+# 4. 코드를 GitHub에 올리기

@@ -11,6 +11,7 @@ class_scores = [
     }
 ]
 
+
 # 1. class_total(class_socres, '국어') == 170
 # 2. class_total_all(classs_scores) == 430
 
@@ -31,7 +32,5 @@ def class_total_all(scores):
 
 
 def test_class_total():
-
     assert class_total(class_scores, '국어') == 80 + 90
     assert class_total_all(class_scores) == 430
-

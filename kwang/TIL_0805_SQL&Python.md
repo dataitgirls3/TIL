@@ -161,6 +161,7 @@ def factorial(n):
 for i in range(1, 10 + 1):
     print(factorial(i))
 
+<<<<<<< HEAD
 ```
 
 score가 다음과 같은 형태로 주어졌을 때
@@ -175,3 +176,6 @@ scores = [80, 100, 70, 90, 40]
 
 def total(n):
     
+=======
+```
+>>>>>>> 0805_SQL,Python

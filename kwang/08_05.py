@@ -6,6 +6,7 @@ class_scores = [
     [90, 90, 30, 30, 20]
 ]
 
+<<<<<<< HEAD
 my_total_score = 0
 
 for score in my_scores:
@@ -36,3 +37,11 @@ print("총점 : ", total(scores))
 print("평점: ", average(scores))
     
 # 4. 코드를 GitHub에 올리기
+=======
+
+my_total_score = 0
+for a in my_scores:
+	my_total_score += a
+
+print(my_total_score)
+>>>>>>> 0805_SQL,Python
